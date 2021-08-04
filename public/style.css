@@ -1,0 +1,98 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+#aboutme{
+    overflow-x: hidden ;
+}
+
+/* Animations */
+
+#main{
+    
+    animation-name: main-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes main-animation{
+    0% {
+        transform: translateY(-600px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+#title{
+    animation-name: title-animation;
+    animation-duration: 2s;
+    
+    animation-timing-function: ease-out;
+}
+
+@keyframes title-animation{
+    0% {
+        transform: translateX(-600px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+.me-animation{
+
+    animation-name: me-animation;
+    animation-duration: 1s;
+    
+    animation-timing-function: ease-out;
+}
+
+@keyframes me-animation{
+    0% {
+        transform: translateX(-600px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+
+
+
+.info-animation{
+    animation-name: info-animation;
+    animation-duration: 1s;
+    
+    animation-timing-function: ease-out;
+}
+
+@keyframes info-animation{
+    0% {
+        transform: translateX(+600px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+
+
+
+.skills-animation{
+    animation-name: skills-animation;
+    animation-duration: 1s;
+    
+    animation-timing-function: linear;
+}
+
+@keyframes skills-animation{
+    0% {
+        transform: translateY(-50px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
