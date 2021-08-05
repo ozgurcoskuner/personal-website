@@ -1,98 +1,92 @@
-body::before{
-    display: block;
-    content: '';
-    height: 60px;
-}
-#aboutme{
-    overflow-x: hidden ;
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
 }
 
-/* Animations */
+@media screen and (min-width: 768px) {
+  #aboutme {
+    overflow-x: hidden;
+  }
 
-#main{
-    
+  /* Animations */
+
+  #main {
     animation-name: main-animation;
     animation-duration: 1s;
     animation-timing-function: ease;
-}
+  }
 
-@keyframes main-animation{
+  @keyframes main-animation {
     0% {
-        transform: translateY(-600px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-}
+      transform: translateY(-600px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
-#title{
+  #title {
     animation-name: title-animation;
     animation-duration: 2s;
-    
+
     animation-timing-function: ease-out;
-}
+  }
 
-@keyframes title-animation{
+  @keyframes title-animation {
     0% {
-        transform: translateX(-600px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-}
+      transform: translateX(-600px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
-.me-animation{
-
+  .me-animation {
     animation-name: me-animation;
     animation-duration: 1s;
-    
+
     animation-timing-function: ease-out;
-}
+  }
 
-@keyframes me-animation{
+  @keyframes me-animation {
     0% {
-        transform: translateX(-600px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-}
+      transform: translateX(-600px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
-
-
-
-.info-animation{
+  .info-animation {
     animation-name: info-animation;
     animation-duration: 1s;
-    
+
     animation-timing-function: ease-out;
-}
+  }
 
-@keyframes info-animation{
+  @keyframes info-animation {
     0% {
-        transform: translateX(+600px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-}
+      transform: translateX(+600px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
-
-
-
-.skills-animation{
+  .skills-animation {
     animation-name: skills-animation;
     animation-duration: 1s;
-    
+
     animation-timing-function: linear;
-}
+  }
 
-@keyframes skills-animation{
+  @keyframes skills-animation {
     0% {
-        transform: translateY(-50px);
-      }
-      100% {
-        transform: translateY(0);
-      }
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 }
-
