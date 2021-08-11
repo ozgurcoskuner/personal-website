@@ -31,19 +31,4 @@
       observerInfo.observe(document.querySelector('.info'));
       
       
-      // Skills animation
-        
-      const observerSkills = new IntersectionObserver(entries => {
-        
-        entries.forEach(entry => {
-         
-          if (entry.isIntersecting) {
-            
-            
-            entry.target.classList.add('skills-animation');
-          }
-        });
-      });
-      
-      observerSkills.observe(document.querySelector('.skills'));
-
+ 

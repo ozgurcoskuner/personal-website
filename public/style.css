@@ -4,7 +4,7 @@ body::before {
   height: 60px;
 }
 
-@media screen and (min-width: 768px) {
+
   #aboutme {
     overflow-x: hidden;
   }
@@ -42,6 +42,8 @@ body::before {
     }
   }
 
+  @media screen and (min-width: 768px) {
+
   .me-animation {
     animation-name: me-animation;
     animation-duration: 1s;
@@ -71,22 +73,6 @@ body::before {
     }
     100% {
       transform: translateX(0);
-    }
-  }
-
-  .skills-animation {
-    animation-name: skills-animation;
-    animation-duration: 1s;
-
-    animation-timing-function: linear;
-  }
-
-  @keyframes skills-animation {
-    0% {
-      transform: translateY(-50px);
-    }
-    100% {
-      transform: translateY(0);
     }
   }
 }
